@@ -4,9 +4,6 @@ namespace MYAcademy_PortfolioProjectt.Controllers
 {
     public class DefaultController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public IActionResult Index() => View();
     }
 }
